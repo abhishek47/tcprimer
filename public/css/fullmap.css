@@ -53,7 +53,7 @@ html, body, #map {
       }
       /* Display the control once it is inside the map. */
       #map .vehicle-control { display: block; position: absolute; top: 5px;
-        right: 90%;, z-index: 5; background-color: #fff;padding: 5px;border: 1px solid #999;}
+         z-index: 5; background-color: #fff;padding: 5px;border: 1px solid #999;}
 
       .selector-control {
         font-size: 14px;

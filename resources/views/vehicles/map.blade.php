@@ -21,7 +21,7 @@
     </div>
 
     <div id="vehicle-selector-control"  class="vehicle-control">
-      <p>{{ $vehicle->uniqid }}</p>
+      <p style="text-align: center;font-size: 20px;">{{ $vehicle->plate_no }}</p>
      </div>
 
     <div id="map"></div>

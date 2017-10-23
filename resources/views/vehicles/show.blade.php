@@ -195,7 +195,7 @@
 
                                     
 	               				 	 
-                                    <button type="button" class="btn btn-default btn-custom btn-rounded waves-effect waves-light"><i class="fa fa-line-chart"></i> Reports</button>
+                                    
                                     <a href="/vehicles/{{$vehicle->uniqid}}/map" class="btn btn-purple btn-custom btn-rounded waves-effect waves-light"><i class="fa fa-map"></i> Fullscreen</a>
 
                                    

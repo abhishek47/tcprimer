@@ -17,7 +17,7 @@ function initializeMap() {
    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(navControl);
 
    var vehicleControl = document.getElementById('vehicle-selector-control');
-   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(vehicleControl);
+   map.controls[google.maps.ControlPosition.TOP_CENTER].push(vehicleControl);
 
 var database = firebase.database();
   
