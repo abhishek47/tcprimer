@@ -25,28 +25,28 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
                             <i class="fa fa-inr text-primary"></i>
-                            <h2 class="m-0 text-dark counter font-600"> &#8377 5,000</h2>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377 0</h2>
                             <div class="text-muted m-t-5">Profit Earned</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
                             <i class="fa fa-line-chart text-pink"></i>
-                            <h2 class="m-0 text-dark counter font-600"> &#8377  20,000</h2>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377  0</h2>
                             <div class="text-muted m-t-5">Lifetime Sales</div>
                         </div>
                     </div>
                      <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
                             <i class="fa fa-pie-chart text-custom"></i>
-                            <h2 class="m-0 text-dark counter font-600"> &#8377  15,000</h2>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377  0</h2>
                             <div class="text-muted m-t-5">Company Expenses</div>
                         </div>
                     </div>
                      <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
                             <i class="fa fa-hourglass-half text-primary"></i>
-                            <h2 class="m-0 text-dark counter font-600"> 12</h2>
+                            <h2 class="m-0 text-dark counter font-600"> 0</h2>
                             <div class="text-muted m-t-5">Journeys Made</div>
                         </div>
                     </div>
