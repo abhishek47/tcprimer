@@ -20,13 +20,13 @@
                 </div>
 
 
-                <div class="row">
+              <!--  <div class="row">
                     <div class="col-md-8">
                         <form role="form">
                             <div class="form-group contact-search m-b-30">
                                 <input type="text" id="search" class="form-control" placeholder="Search...">
                                 <button type="submit" class="btn btn-white"><i class="fa fa-search"></i></button>
-                            </div> <!-- form-group -->
+                            </div>
                         </form>
                     </div>
                     <div class="col-md-4">
@@ -47,7 +47,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
 
                
 
@@ -79,23 +79,25 @@
                                             <form method="POST" action="{{ route('vehicles.store') }}">
 
                                             {{ csrf_field() }}
-                                            <div class="row">
+                                              <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
                                                         <label for="field-1" class="control-label">Name</label>
-                                                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" placeholder="Ex. Suzuki Ciaz">
+                                                        <input type="text" class="form-control" data-validation="required" id="name" name="name" value="{{ old('name') }}" placeholder="Ex. Suzuki Ciaz">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group {{ $errors->has('type') ? 'has-error' : '' }}">
                                                         <label for="field-2" class="control-label">Type</label>
-                                                        <input type="text" class="form-control" value="{{ old('type') }}" id="type" name="type" placeholder="Ex. Sedan Car">
+                                                        <input type="text" class="form-control" data-validation="required" value="{{ old('type') }}" id="type" name="type" placeholder="Ex. Sedan Car">
                                                     </div>
                                                 </div>
+                                                </div>
+                                                <div class="row">
                                                  <div class="col-md-6">
                                                     <div class="form-group {{ $errors->has('fuel_type') ? 'has-error' : '' }}">
                                                         <label for="field-2" class="control-label">Fuel Type</label>
-                                                        <select class="form-control" name="fuel_type" id="fuel_type">
+                                                        <select class="form-control" data-validation="required" name="fuel_type" id="fuel_type">
                                                             <option value="0" {{ old('fuel_type') == 0 ? 'selected' : '' }}>Petrol</option>
                                                             <option value="1" {{ old('fuel_type') == 1 ? 'selected' : '' }}>Deisel</option>
                                                             <option value="2" {{ old('fuel_type') == 2 ? 'selected' : '' }}>CNG</option>
@@ -105,15 +107,15 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group {{ $errors->has('high_speed') ? 'has-error' : '' }}">
                                                         <label for="field-2" class="control-label">High Speed</label>
-                                                        <input type="text" class="form-control" value="{{ old('high_speed') }}" id="high_speed" name="high_speed" placeholder="The highest speed the vehicle can take in Km/h Ex. 180">
+                                                        <input type="text" data-validation="required" class="form-control" value="{{ old('high_speed') }}" id="high_speed" name="high_speed" placeholder="The highest speed the vehicle can take in Km/h Ex. 180">
                                                     </div>
                                                 </div>
-                                            </div>
+                                               </div>
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group {{ $errors->has('uniqid') ? 'has-error' : '' }}">
-                                                        <label for="field-3" class="control-label">Unique Id</label>
-                                                        <input type="text" value="{{ old('uniqid') }}" class="form-control" id="uniqid" name="uniqid" placeholder="Ex. TC9922367414">
+                                                        <label for="field-3"  class="control-label">Unique Id</label>
+                                                        <input type="text" data-validation="required" value="{{ old('uniqid') }}" class="form-control" id="uniqid" name="uniqid" placeholder="Ex. TC9922367414">
                                                     </div>
                                                 </div>
                                             </div>
@@ -121,7 +123,7 @@
                                                 <div class="col-md-12">
                                                     <div class="form-group {{ $errors->has('plate_no') ? 'has-error' : '' }}">
                                                         <label for="field-4" class="control-label">Vehicle No.</label>
-                                                        <input type="text" value="{{ old('plate_no') }}" class="form-control" id="plate_no" name="plate_no" placeholder="Ex. MH 15 FF 9444">
+                                                        <input type="text" data-validation="required" value="{{ old('plate_no') }}" class="form-control" id="plate_no" name="plate_no" placeholder="Ex. MH 15 FF 9444">
                                                     </div>
                                                 </div>
                                                

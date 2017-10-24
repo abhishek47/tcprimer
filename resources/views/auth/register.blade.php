@@ -6,7 +6,7 @@
         <div class="wrapper-page">
             <div class=" card-box">
                 <div class="panel-heading">
-                    <h3 class="text-center"> Sign Up to <strong class="text-custom">Primer</strong> </h3>
+                    <h3 class="text-center"> Sign Up to <strong style="color: #238b53;">TDrive</strong> </h3>
                 </div>
 
                 <div class="panel-body">
@@ -51,7 +51,7 @@
 
                         <div class="form-group text-center m-t-40">
                             <div class="col-xs-12">
-                                <button class="btn btn-pink btn-block text-uppercase waves-effect waves-light" type="submit">
+                                <button class="btn btn-orange btn-block text-uppercase waves-effect waves-light" type="submit">
                                     Register
                                 </button>
                             </div>

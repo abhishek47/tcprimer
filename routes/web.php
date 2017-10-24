@@ -39,9 +39,21 @@ Route::get('/vehicles/{vehicle}/reports/fuel', 'ReportsController@fuel')->name('
 
 
 Route::get('/customers', 'CustomersController@index')->name('customers');
+Route::post('/customers', 'CustomersController@store')->name('customers.store');
+Route::get('/customers/{customer}', 'CustomersController@show')->name('customers.show');
+Route::patch('/customers/{customer}', 'CustomersController@update')->name('customers.update');
+Route::get('/customers/{customer}/documents', 'CustomerDocumentsController@index')->name('customers.documents');
+Route::post('/customers/{customer}/documents', 'CustomerDocumentsController@store')->name('customers.documents.store');
+Route::get('customers/documents/{document}/delete', 'CustomerDocumentsController@destroy')->name('customers.documents.delete');
 
 
 Route::get('/people', 'PeopleController@index')->name('people');
+Route::post('/people', 'PeopleController@store')->name('people.store');
+Route::get('/people/{person}', 'PeopleController@show')->name('people.show');
+Route::patch('/people/{person}', 'PeopleController@update')->name('people.update');
+Route::get('/people/{person}/documents', 'PeopleDocumentsController@index')->name('people.documents');
+Route::post('/people/{person}/documents', 'PeopleDocumentsController@store')->name('people.documents.store');
+Route::get('people/documents/{document}/delete', 'PeopleDocumentsController@destroy')->name('people.documents.delete');
 
 
 Route::get('/consignments', 'ConsignmentsController@index')->name('consignments');

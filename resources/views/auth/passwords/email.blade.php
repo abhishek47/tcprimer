@@ -39,7 +39,7 @@
                             <div class="input-group">
                                 <input id="email" name="email" value="{{ old('email') }}" type="email" class="form-control" placeholder="Enter Email" required="">
                                 <span class="input-group-btn">
-                                    <button type="submit" class="btn btn-pink w-sm waves-effect waves-light">
+                                    <button type="submit" class="btn btn-orange w-sm waves-effect waves-light">
                                         Reset
                                     </button> 
                                 </span>

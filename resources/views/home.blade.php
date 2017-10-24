@@ -24,16 +24,37 @@
  <div class="row hidden-xs">
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
-                            <i class="fa fa-road text-primary"></i>
-                            <h2 class="m-0 text-dark counter font-600"><span id="complete-distance">0</span> m</h2>
-                            <div class="text-muted m-t-5">Distance Travelled</div>
+                            <i class="fa fa-inr text-primary"></i>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377 5,000</h2>
+                            <div class="text-muted m-t-5">Profit Earned</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget-panel widget-style-2 bg-white">
-                            <i class="fa fa-clock-o text-pink"></i>
-                            <h2 class="m-0 text-dark counter font-600"><span id="time-travelled">0</span> Hrs.</h2>
-                            <div class="text-muted m-t-5">Time Travelled</div>
+                            <i class="fa fa-line-chart text-pink"></i>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377  20,000</h2>
+                            <div class="text-muted m-t-5">Lifetime Sales</div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 bg-white">
+                            <i class="fa fa-pie-chart text-custom"></i>
+                            <h2 class="m-0 text-dark counter font-600"> &#8377  15,000</h2>
+                            <div class="text-muted m-t-5">Company Expenses</div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 bg-white">
+                            <i class="fa fa-hourglass-half text-primary"></i>
+                            <h2 class="m-0 text-dark counter font-600"> 12</h2>
+                            <div class="text-muted m-t-5">Journeys Made</div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 bg-white">
+                            <i class="fa fa-car text-custom"></i>
+                            <h2 class="m-0 text-dark counter font-600">{{ count(auth()->user()->vehicles) }}</h2>
+                            <div class="text-muted m-t-5">{{ str_plural('Vehicle', count(auth()->user()->vehicles))}} Connected</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -43,13 +64,7 @@
                             <div class="text-muted m-t-5">Vehicles Moving</div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="widget-panel widget-style-2 bg-white">
-                            <i class="fa fa-car text-custom"></i>
-                            <h2 class="m-0 text-dark counter font-600">{{ count(auth()->user()->vehicles) }}</h2>
-                            <div class="text-muted m-t-5">{{ str_plural('Vehicle', count(auth()->user()->vehicles))}} Connected</div>
-                        </div>
-                    </div>
+                   
                 </div>
 
 

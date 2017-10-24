@@ -15,6 +15,25 @@ class CreateSalesTable extends Migration
     {
         Schema::create('sales', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id');
+            $table->json('consignment_ids');
+            $table->integer('customer_id');
+
+            $table->double('amount');
+            $table->double('taxable_amount');
+            $table->string('tax_paid_by');
+            $table->double('tax_amount');
+            $table->double('net_total');
+
+            $table->string('bill_date');
+            $table->string('due_date');
+            
+
+            $table->integer('status')->default(0);
+            $table->text('remarks');
+
+
+
             $table->timestamps();
         });
     }

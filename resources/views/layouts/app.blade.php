@@ -46,6 +46,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/theme.main.js') }}"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script src="{{ asset('js/datatables.js') }}"></script>
 
     <script src="{{ asset('js/moment.js') }}"></script>
@@ -54,7 +56,11 @@
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
 
 
-
+        <script>
+      $.validate({
+        modules : 'security'
+      });
+    </script>
 
 
     <script type="text/javascript">

@@ -25,6 +25,6 @@ class AddHighSpeedFieldToVehiclesTable extends Migration
      */
     public function down()
     {
-        Schema::dropColumn('high_speed');
+         
     }
 }

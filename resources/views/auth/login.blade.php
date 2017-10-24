@@ -6,7 +6,7 @@
         <div class="wrapper-page">
             <div class=" card-box">
             <div class="panel-heading"> 
-                <h3 class="text-center"> Sign In to <strong class="text-custom">Primer</strong> </h3>
+                <h3 class="text-center"> Sign In to <strong style="color: #238b53;">TDrive</strong> </h3>
             </div> 
 
 
@@ -43,7 +43,7 @@
                 
                 <div class="form-group text-center m-t-40">
                     <div class="col-xs-12">
-                        <button class="btn btn-pink btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
+                        <button class="btn btn-orange btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
                     </div>
                 </div>
 

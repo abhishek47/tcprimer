@@ -7,12 +7,32 @@ body {
 	    background: #eaf0f5;
 }
 
+.btn-orange{
+	background-color: #ff6c00;
+	color: #fff;
+}
+
+.btn-orange:hover{
+	color: #fff;
+}
+
+.btn-custom.btn-default {
+color: #fff !important;
+}
+
+
+.btn-default{
+	background-color: #238b53 !important;
+	border: 1px solid #238b53 !important;
+	color: #fff !important;
+}
+
 .page-title.large {
 	font-size: 32px;font-weight: bold;margin-bottom: 30px;color: black;
 }
 
 #topnav .topbar-main {
-    background-color: #009688;
+    background-color: #238b53;
 }
 
 #topnav .app-search .form-control, #topnav .app-search .form-control:focus {
@@ -31,10 +51,16 @@ body {
 
 .text-dark {
     color: #000000 !important;
+
+}
+
+.text-custom {
+	color: #238b53 !important;
+
 }
 
 .btn-techno {
-	background-color: #009688;
+	background-color: #238b53;
 	color: white;
 }
 
@@ -99,11 +125,6 @@ body {
 
 
 
-.report-date-selector {
-	width: 110px;
-	height:20px;
-	float: right;
-}
 
 
 @media (max-width: 767px)
@@ -120,13 +141,7 @@ body {
 	}
 
 
-.report-date-selector {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	width: 190px;
-	height:30px;
-	float: none;
-}
+
 
 
 }

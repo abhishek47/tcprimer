@@ -30,7 +30,7 @@
                                 <a href="/home">Home</a>
                             </li>
                             <li>
-                                <a href="#">Vehicles</a>
+                                <a href="/vehicles">Vehicles</a>
                             </li>
                             <li class="active">
                                 {{ $vehicle->name }}
